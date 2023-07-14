@@ -32,6 +32,8 @@ print('Apples' in fruits_set)
 
 # Add to Set
 fruits_set.add('Grapes')
+fruits_set.add('Apples') #if we add a duplicate member, it simply ignores it
+
 
 # Remove from Set
 fruits_set.remove('Grapes')
