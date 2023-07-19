@@ -1,11 +1,12 @@
-# A Tuple is a collection which is ordered and unchangable. Allows duplicate members
+# A Tuple is a collection which is ordered and unchangable.
+# Allows duplicate members
 
 '''
 Create a Tuple
 '''
 
-fruits_a = ('Apples','Oranges','Grapes')
-fruits_b = tuple(('Apples','Oranges','Grapes'))
+fruits_a = ('Apples', 'Oranges', 'Grapes')
+fruits_b = tuple(('Apples', 'Oranges', 'Grapes'))
 
 # Remember to use a trailing comma for the single values
 fruits_b = ('Apples',)
@@ -25,14 +26,14 @@ Create a Set
 '''
 
 
-fruits_set = {'Apples','Ornages','Mangos'}
+fruits_set = {'Apples', 'Ornages', 'Mangos'}
 
 # Check if is in the Set
 print('Apples' in fruits_set)
 
 # Add to Set
 fruits_set.add('Grapes')
-fruits_set.add('Apples') #if we add a duplicate member, it simply ignores it
+fruits_set.add('Apples')  # if we add a duplicate member, it simply ignores it
 
 
 # Remove from Set

@@ -13,10 +13,10 @@ VARIABLE RULES:
     - Can have numbers but can not start with one
 """
 
-x = 1              #int
-y = 2.5            #float
-name  = "John"     #string
-is_open = True     #boolean / must start with a capital letter
+x = 1  # int
+y = 2.5  # float
+name = "John"  # string
+is_open = True  # boolean / must start with a capital letter
 
 # Multiple assignment
 x, y, name, is_open = (1, 2.5, 'John', True)
@@ -25,7 +25,7 @@ x, y, name, is_open = (1, 2.5, 'John', True)
 a = x + y
 
 print('Hello World!')
-print(x,y,name,is_open , a)
+print(x, y, name, is_open, a)
 
 # Casting
 x = str(x)
@@ -33,4 +33,4 @@ y = int(y)
 z = float(y)
 
 # Checking types
-print(type(z),z)
+print(type(z), z)

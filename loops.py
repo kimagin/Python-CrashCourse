@@ -1,6 +1,7 @@
-#NOTE: A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string)
+# NOTE: A for loop is used for iterating over a sequence
+# (that is either a list, a tuple, a dictionary, a set, or a string)
 
-people = ['John','Paul', 'Sara','Susan']
+people = ['John', 'Paul', 'Sara', 'Susan', 'Jack']
 
 '''
 Simple FOR loop
@@ -41,7 +42,7 @@ for i in range(len(people)):
 CUSTOM RANGE
 '''
 print('\nCustom Range:')
-for i in range(0,11):
+for i in range(0, 11):
     print(f'Number:{i}')
 
 '''
@@ -52,6 +53,3 @@ count = 0
 while count <= 10:
     print(f'Count:{count}')
     count += 1
-
-
-
