@@ -8,6 +8,9 @@
 # import datetime
 # import time
 
+# PERF: Import pip3 modules
+# from camelcase import CamelCase
+
 # PERF: Import the module partially
 from datetime import date
 from time import time
@@ -19,5 +22,9 @@ today = date.today()
 
 # timestamp = time.time()
 timestamp = time()
+
+# c = CamelCase()
+
+# print(c.hump('hello world of camel case'))
 
 print(today, timestamp)
