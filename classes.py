@@ -32,16 +32,26 @@ class Customer(User):
         self.balance = balance
 
     def greeting(self):
-        return f'My name is {self.name} and I am {self.age}. My balance currently is {self.balance}'
+        return f'My name is {self.name} and I am {self.age}. My balance is {self.balance}'
 
 
 # Initiaton of the object
-Iman = User('Iman Kimiaei', "inkimiaei@gmail.com", 37)
-Ida = Customer('Ida', 'Ida@gmail.com', '30')
+
+# Getting user inputs
+name = input('What is your name :')
+email = input('Your email address :')
+age = input('Your age is :')
+
+# Creating a new user
+new_user = User(name, email, age)  # Class of User
+
+
+# Creating a new Customer
+Ida = Customer('Ida', 'Ida@gmail.com', '30')  # Extended class of Customer
 Ida.set_balance(500)
 
 
-print(type(Iman))
-print(Iman.email)
-print(Iman.greeting())
+print(type(new_user))
+print(new_user.email)
+print(new_user.greeting())
 print(Ida.greeting())
