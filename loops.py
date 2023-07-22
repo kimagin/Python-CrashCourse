@@ -53,3 +53,9 @@ count = 0
 while count <= 10:
     print(f'Count:{count}')
     count += 1
+
+'''
+forEach style loop with index
+'''
+for i, person in enumerate(people):
+    print(f'Person number {i + 1} is {person}')
